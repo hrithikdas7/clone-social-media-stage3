@@ -1,0 +1,60 @@
+/* Styles for the likes-comments container */
+.likes-comments {
+    display: flex;
+    align-items: center;
+  
+    .likes-comments-item {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+  
+      .icon-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: none;
+        background-color: transparent;
+        color: #333;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: color 0.2s ease-in-out;
+  
+        &:hover {
+          color: #ff4d4f; /* Change the color on hover (e.g., red for a heart) */
+        }
+  
+        /* Styles for the heart icon when liked */
+        &.liked {
+          color: #ff4d4f;
+        }
+      }
+  
+      .like-count {
+        font-size: 1rem;
+        margin-left: 8px;
+        color: #666;
+      }
+    }
+  
+    /* Styles for the share icon */
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border: none;
+      background-color: transparent;
+      color: #333;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: color 0.2s ease-in-out;
+  
+      &:hover {
+        color: #007bff; /* Change the color on hover (e.g., blue for a share icon) */
+      }
+    }
+  }
+  
